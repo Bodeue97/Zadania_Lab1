@@ -63,6 +63,18 @@ ostatniaLitera = "Ostatnia litera"
 print(drugaLitera[1], ostatniaLitera[-1])
 del drugaLitera, ostatniaLitera
 
+# Zadanie 8
+tekst = "Tekst do podziału"
+print(tekst.split())
+del tekst
+
+# Zadanie 9
+
+a, b, c =1000, 11.01, "Napis"
+print("Szesnastkowy: %(a)x float: %(b)f i string %(c)s" %{'a':a, 'b':b, 'c':c})
+del a, b, c
+
+
 
 
 
