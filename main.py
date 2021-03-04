@@ -1,3 +1,5 @@
+import math
+from math import *
 
 # Zadanie 1
 # int
@@ -35,5 +37,26 @@ potegowanie **=a
 reszta%=a
 print(dodawanie, odejmowanie, dzielenie, mnozenie, potegowanie, reszta)
 del a, dodawanie, odejmowanie, dzielenie, mnozenie, potegowanie, reszta
+
+# Zadanie 4
+
+var1 = math.e **10
+var2 = log(5+sin(8)**2)**1/6
+var3 = floor(3.55)
+var4 = ceil(4.80)
+print(var1, var2, var3, var4)
+del var1, var2, var3, var4
+# Zadanie 5
+firstName = "BOHDAN"
+secondName = "ŁUKASZEWICZ"
+print(firstName.capitalize() + " " + secondName.capitalize())
+del firstName, secondName
+
+# Zadanie 6
+
+
+
+
+
 
 
