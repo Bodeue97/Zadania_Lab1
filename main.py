@@ -53,7 +53,15 @@ print(firstName.capitalize() + " " + secondName.capitalize())
 del firstName, secondName
 
 # Zadanie 6
+tekst = "Gdyby tak ktoś przyszedł i powiedział: Stary, czy masz czas? Potrzebuję do załogi jakąś nową twarz la la la la la la la la la "
+print(tekst.count(" la"))
+del tekst
 
+# Zadanie 7
+drugaLitera = "Druga litera"
+ostatniaLitera = "Ostatnia litera"
+print(drugaLitera[1], ostatniaLitera[-1])
+del drugaLitera, ostatniaLitera
 
 
 
